@@ -32,4 +32,4 @@ Projeto simples de cadastro de clientes usando PHP, MySQL, HTML, CSS e JavaScrip
 
 ---
 
-Se quiser, posso te ajudar a criar o arquivo SQL para facilitar a importação. Quer?  
+ 
