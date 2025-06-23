@@ -28,7 +28,7 @@ Projeto simples de cadastro de clientes usando PHP, MySQL, HTML, CSS e JavaScrip
 ## Observações
 
 - O campo "Código" (ID) é gerado automaticamente pelo banco de dados.
-- Esse projeto foi desenvolvido para um processo seletivo e é um projeto inicial.
+
 
 ---
 
