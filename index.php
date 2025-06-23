@@ -12,6 +12,7 @@ $result = $conn->query($sql);
     <meta charset="UTF-8">
     <title>Lista de Clientes</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 </head>
 <body>
     <h1>Lista de Clientes</h1>
@@ -36,7 +37,7 @@ $result = $conn->query($sql);
                     <td><?= $row['endereco'] ?></td>
                     <td>
                         <a href="edit.php?id=<?= $row['id'] ?>">Editar</a> |
-                        <a href="delete.php?id=<?= $row['id'] ?>" onclick="return confirm('Tem certeza que deseja excluir?');">Excluir</a>
+                        <a href="delete.php?id=<?= $row['id'] ?>" onclick="return confirmarExclusao('<?= $row['nome'] ?>');">Excluir</a>
                     </td>
                 </tr>
             <?php endwhile; ?>
